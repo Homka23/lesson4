@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: "Century Gothic";
+    color: blueviolet;
+    font-size: 30px;
+}
+.wrap {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.height {
+    height: 33vh;
+    background: #f39090;
+    border-radius: 15px;
+}
+.f {
+    height: 67vh;
+    width: 25%;
+    background: #f39090;
+    border-radius: 15px;
+}
+.more {
+    width: 75%;
+}
+.a {
+    width: 100%;
+}
+.b {
+    width: 100%;
+}
+.box {
+    width: 33%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 768px){
+    .a {
+        height: 25vh;
+    }
+    .media-height {
+        height: 13vh;
+    }
+    .big {
+        height: 47vh;
+    }
+    .media-width {
+        width: 100%;
+    }
+    .another {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .more {
+        gap: 20px;
+    }
+    .boxes {
+        gap: 30px;
+    }
+    .wrap {
+        padding: 20px;
+        gap: 20px;
+    }
+}
